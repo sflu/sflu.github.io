@@ -17,8 +17,8 @@
       <pubDate>Sun, 11 Nov 2018 20:03:00 +0800</pubDate>
       
       <guid>http://example.org/post/%E7%BB%99%E7%94%9F%E6%B4%BB%E6%9D%A5%E7%82%B9%E4%B8%8D%E4%B8%80%E6%A0%B7/</guid>
-      <description> 给生活来点不一样 刚刚搭建了博客，解决了如下几个问题：
- 使用hugo搭建本地博客 将博客上传到github 使用CNAME将lusf.site域名指向sflu.github.io  </description>
+      <description>给生活来点不一样 刚刚搭建了博客，解决了如下几个问题：
+ 使用hugo搭建本地博客 将博客上传到github 使用CNAME将lusf.site域名指向sflu.github.io  更换主题 刚开始用hugo官方推荐的ananke主题，感觉有点太简单了，后来用了[飞雪无情]http://w(http://www.flysnow.org)推荐的[Maupassant](https://github.com/rujews/maupassant-hugo). - 添加主题命令 - git submodule add https://github.com/rujews/maupassant-hugo themes/maupassant</description>
     </item>
     
   </channel>
