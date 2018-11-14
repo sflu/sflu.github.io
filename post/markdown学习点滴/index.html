@@ -88,6 +88,32 @@
 | 稍微长一点的文本 | 短文本 | 中等文本 |
 </code></pre>
 
+<p>对应效果：</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">左对齐标题</th>
+<th align="right">右对齐标题</th>
+<th align="center">居中对齐标题</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">短文本</td>
+<td align="right">中等文本</td>
+<td align="center">稍微长一点的文本</td>
+</tr>
+
+<tr>
+<td align="left">稍微长一点的文本</td>
+<td align="right">短文本</td>
+<td align="center">中等文本</td>
+</tr>
+</tbody>
+</table>
+
 <ul>
 <li>列宽</li>
 </ul>
@@ -101,27 +127,91 @@ table th:nth-of-type(1) {
 &lt;/style&gt;
 </code></pre>
 
-<p>其中1为要控制列宽的列序号，示例如下：
+<p>其中1为要控制列宽的列序号，示例如下：</p>
+
 <style>
 table th:nth-of-type(1) {
     width: 120px;
 }
 </style>
-| 项目 | 指标 |
-| :- | - |
-|文本类别|普通书面文本|
-|字符范围|ASCII码；CJK及扩展A、B区（香港增补字符集 HKSCS）；音标；常用符号
-|输入文本代码页|UTF-16；UTF08(CP65001)；简体中文 GB18030(CP936，兼容 GB2312-80、GBK)；繁体中文 Big5(CP950，支持 HKSCS)； Phonetic Plain(金山词霸音标字体)|
-|输入文本模式|块式文本输入|
-|音频编解码支持|speex、ico、pcm|
-|文本标记|csml、简单标记|
-|采样率|16k、8k|
-|情感选择|开心、伤心、愤怒等|
-|音量、语速、音高|支持 1 到 100 细粒度的设置，默认值 50|
-|阿拉伯数字处理|可指定按号码或数值处理，默认根据上下文智能判断；|
-|多音字识别|支持普通多音字、姓名、地名路名等多音字的智能处理|
-|合成总体感觉|4.2分(高品质合成，满分5分)|
-|吞吐率|高品质合成大于1.3，普通品质合成大于5|</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">项目</th>
+<th align="left">指标</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">文本类别</td>
+<td align="left">普通书面文本</td>
+</tr>
+
+<tr>
+<td align="left">字符范围</td>
+<td align="left">ASCII码；CJK及扩展A、B区（香港增补字符集 HKSCS）；音标；常用符号</td>
+</tr>
+
+<tr>
+<td align="left">输入文本代码页</td>
+<td align="left">UTF-16；UTF08(CP65001)；简体中文 GB18030(CP936，兼容 GB2312-80、GBK)；繁体中文 Big5(CP950，支持 HKSCS)； Phonetic Plain(金山词霸音标字体)</td>
+</tr>
+
+<tr>
+<td align="left">输入文本模式</td>
+<td align="left">块式文本输入</td>
+</tr>
+
+<tr>
+<td align="left">音频编解码支持</td>
+<td align="left">speex、ico、pcm</td>
+</tr>
+
+<tr>
+<td align="left">文本标记</td>
+<td align="left">csml、简单标记</td>
+</tr>
+
+<tr>
+<td align="left">采样率</td>
+<td align="left">16k、8k</td>
+</tr>
+
+<tr>
+<td align="left">情感选择</td>
+<td align="left">开心、伤心、愤怒等</td>
+</tr>
+
+<tr>
+<td align="left">音量、语速、音高</td>
+<td align="left">支持 1 到 100 细粒度的设置，默认值 50</td>
+</tr>
+
+<tr>
+<td align="left">阿拉伯数字处理</td>
+<td align="left">可指定按号码或数值处理，默认根据上下文智能判断；</td>
+</tr>
+
+<tr>
+<td align="left">多音字识别</td>
+<td align="left">支持普通多音字、姓名、地名路名等多音字的智能处理</td>
+</tr>
+
+<tr>
+<td align="left">合成总体感觉</td>
+<td align="left">4.2分(高品质合成，满分5分)</td>
+</tr>
+
+<tr>
+<td align="left">吞吐率</td>
+<td align="left">高品质合成大于1.3，普通品质合成大于5</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>注意</strong> 此方案有点瑕疵，设置之后会改变本页所有的表格指定列的宽度</p>
 
                         </div>
 
